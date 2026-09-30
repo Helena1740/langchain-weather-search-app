@@ -87,6 +87,8 @@ git pull -> get the remote changes into my local branch
 git branch -> what branches exist or to check local branch
 git remote -v -> to check the connection between remote and local 
 git remote add origin <GitHub URL> -> to connect remote and local
+git remote remove origin -> to delete existing connection
+git push -u origin main -> from 'main' local branch to 'origin' remote branch -> first push
 git branch new-feature -> just creates new-feature branch but doesn't switch to it
 git merge -> combine branches -> git switch main -> git merge feature/recommendation-systems
 git stash -> temporarily puts aside unfinished changes if we don't want to commit unfinished code (git stash -> git switch bug-fix git switch feature-work (continue work) -> git stash pop -> unfinished changes come back)
