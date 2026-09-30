@@ -1,0 +1,8 @@
+langchain #main orchestrator
+langchain-core
+#langchain-openai==0.1.3 
+langchain-google-genai #free model's performance may be worse
+requests
+langchain-tavily # search tool
+python-dotenv
+streamlit # UI
