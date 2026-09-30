@@ -124,3 +124,4 @@ brain) -> PROMPT (give it behavioral instructions) -> AGENT (connect brain + too
 - Maximum length of history memory depends on the context window (tokens) -> trim/delete previous or summarize (# each 4000 tokens or save the latest 20 messages) or filter (choose only necessary or delete unnecessary tools' history)
 - Upload to the GitHub with .gitignore file -> render.com -> New -> Web Service -> Name, Public Git Repository -> GitHub URL
 - Always make sure you are at the correct virtual environment
+- render.com -> New -> Web Service -> HTTPS GitHub URL -> streamlit run app.py --server.port $PORT --server.address 0.0.0.0, then add environment variables -> Deploy Web Service -> Wait until Live
